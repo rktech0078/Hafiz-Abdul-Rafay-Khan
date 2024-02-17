@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>My Bookmarks</title>
+    <title>Forms - for learning</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1> Rafay Bookmarks</h1>
+    <h1>Studying about forms in HTML</h1>
 
-<h2>(01) Primary Bookmarks</h2>
-<p><a target="_blank" href="www.google.com">Open google</a></p>
-<p><a target="_blank" href="www.youtube.com">Open youtube</a></p>
-<p><a target="_blank" href="www.daraz.com">Open daraz</a></p>
+    <h2>(1): How to Make Username Button in my web...</h2>
+    <form action="post" method="post">
 
-<h2>(02) Secondary Bookmarks</h2>
-<p><a target="_blank" href="www.github.com">Open github</a></p>
-<p><a target="_blank" href="www.facebook.com">Open facebook</a></p>
+        <label for="Username">Enter your username here: </label>
+        <input type="text" name="Rafay" id="Username" placeholder="Username">
 
+        <h2>(2): How to make Radio Buttons in my web...</h2>
 
-    <script src="scrip.js"></script>
-    <link rel="stylesheet" href="style.css">
+        <div>
+            <input type="radio" name="gender" id="Male" value="male">
+            <label for="Male">Male</label>
+
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+            <h2>(3): How to make Checkbox in my web...</h2>
+            <label for="agree terms and conditions" id>Agree terms and conditions</label>
+            <input type="checkbox" name="agree terms and conditions" id="agree terms and conditions"
+                value="terms and conditions">
+        </div>
+
+        <div>
+            <h2>(4): How to make TextArea tag in my web...</h2>
+            <textarea name="Enter your comment here" id="comment" cols="30" rows="10"></textarea>
+            <br>
+            <label for="Comments">Enter your Comments here:</label>
+        </div>
+        <br>
+        <div>
+            <h2>(5): How to make select tag in my web...</h2>
+            <select name="Rafay" id="">
+                <option value="Naeem">Naeem</option>
+                <option value="Farzana">Farzana</option>
+                <option value="Abdul Rafay">Abdul Rafay</option>
+                <option value="Arsalan">Arsalan</option>
+                <option value="Ayan">Ayan</option>
+            </select>
+        </div>
+        <br>
+    </form>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
